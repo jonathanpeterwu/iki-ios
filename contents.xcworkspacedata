@@ -207,16 +207,31 @@
          location = "group:Iki"
          name = "Iki">
          <FileRef
+            location = "group:ViewController.swift">
+         </FileRef>
+         <FileRef
             location = "group:AppDelegate.swift">
          </FileRef>
          <Group
             location = "group:Base.lproj"
             name = "Base.lproj">
             <FileRef
+               location = "group:../LocationViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:../LocationController.swift">
+            </FileRef>
+            <FileRef
                location = "group:LaunchScreen.xib">
             </FileRef>
             <FileRef
                location = "group:Main.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:TabController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:RatingController.swift">
             </FileRef>
          </Group>
          <FileRef
@@ -305,9 +320,6 @@
          </Group>
          <FileRef
             location = "group:Info.plist">
-         </FileRef>
-         <FileRef
-            location = "group:ViewController.swift">
          </FileRef>
       </Group>
       <FileRef
