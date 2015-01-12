@@ -14,6 +14,7 @@
 		9B8B4B591A5F42F7000EEF22 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B8B4B581A5F42F7000EEF22 /* Images.xcassets */; };
 		9B8B4B5C1A5F42F7000EEF22 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B8B4B5A1A5F42F7000EEF22 /* LaunchScreen.xib */; };
 		9B8B4B681A5F42F7000EEF22 /* IkiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B4B671A5F42F7000EEF22 /* IkiTests.swift */; };
+		9B9EFBDD1A633AA5007F730D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9EFBDC1A633AA5007F730D /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		9B8B4B611A5F42F7000EEF22 /* IkiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IkiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B8B4B661A5F42F7000EEF22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B8B4B671A5F42F7000EEF22 /* IkiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IkiTests.swift; sourceTree = "<group>"; };
+		9B9EFBDC1A633AA5007F730D /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				9B8B4B4E1A5F42F7000EEF22 /* AppDelegate.swift */,
 				9B8B4B531A5F42F7000EEF22 /* ViewController.swift */,
 				9B8B4B551A5F42F7000EEF22 /* Main.storyboard */,
+				9B9EFBDC1A633AA5007F730D /* LoginView.swift */,
 				9B8B4B581A5F42F7000EEF22 /* Images.xcassets */,
 				9B8B4B5A1A5F42F7000EEF22 /* LaunchScreen.xib */,
 				9B8B4B501A5F42F7000EEF22 /* Iki.xcdatamodeld */,
@@ -217,6 +220,7 @@
 			files = (
 				9B8B4B541A5F42F7000EEF22 /* ViewController.swift in Sources */,
 				9B8B4B4F1A5F42F7000EEF22 /* AppDelegate.swift in Sources */,
+				9B9EFBDD1A633AA5007F730D /* LoginView.swift in Sources */,
 				9B8B4B521A5F42F7000EEF22 /* Iki.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +415,7 @@
 				9B8B4B6D1A5F42F7000EEF22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B8B4B6E1A5F42F7000EEF22 /* Build configuration list for PBXNativeTarget "IkiTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				9B8B4B701A5F42F7000EEF22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

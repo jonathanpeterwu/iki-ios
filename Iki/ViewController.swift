@@ -10,6 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(true)
+        
+//        let prefs:NSUserDefaults = NSUserDefaults.standardUserDefaults()
+//        let isLoggedIn:Int = prefs.integerForKey("ISLOGGEDIN") as Int
+//        if (isLoggedIn != 1) {
+//            self.performSegueWithIdentifier("login", sender: self)
+//        } else {
+//            self.usernameLabel.text = prefs.valueForKey("USERNAME") as NSString
+//        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
